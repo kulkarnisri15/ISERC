@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+ 
+    font-family: Century Gothic , sans-serif;
+    transition: 0.4s;
+}
+a{
+    color: white;
+
+    
+}
+
+.navlist{
+    width: 100%;
+    padding: 2PX 10vw;
+    position: fixed;
+    
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+ 
+}
+.navlist ul li:first-child{
+    flex: 1;
+    box-sizing: content-box;
+
+}
+.navlist ul a{
+    margin-left: 120px;
+    font-size: 18pX;
+ 
+
+    border-style: none;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+}
+.navlist ul a:hover{
+    color:rgb(26, 22, 21)
+}
+.navlist ul li button a{
+    border: black;
+}
+.container{
+    border: white;
+    border-style: double;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}

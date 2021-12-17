@@ -1,0 +1,113 @@
+*{
+    background-color: rgb(56, 95, 95);
+    margin: 0;
+    padding: 0;
+ 
+    font-family: Century Gothic , sans-serif;
+    transition: 0.4s;
+    
+}
+a{
+    color: white;
+
+    
+}
+
+.navlist{
+    width: 100%;
+    padding: 2PX 10vw;
+    position: fixed;
+    
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+ 
+}
+.navlist ul li:first-child{
+    flex: 1;
+    box-sizing: content-box;
+
+}
+.navlist ul a{
+    margin-left: 120px;
+    font-size: 18PX;
+ 
+
+    border-style: none;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+}
+.navlist ul a:hover{
+    color:rgb(26, 22, 21)
+}
+.navlist ul li button a{
+    border: white;
+}
+.container p{
+    border: white;
+    
+    text-align: top;
+    color: white;
+    letter-spacing: 2px;
+    
+    
+    font-family: sans-serif;
+    font-style: normal;
+    background-color: burlywood;
+
+   
+}
+.container h1{
+    color: white;
+    border: white;
+    border-style: double;
+
+}
+.container h1:hover{
+    color:black;
+}
+.container p{
+
+    font-family: serif;
+    text-align: start;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.container p:hover{
+    color: white;
+}
+.content{
+   
+    font-size: medium;
+    font-family: serif;
+    text-align: start;
+    color: white;
+    font-weight: bold;
+}
+.content label{
+    color: white;
+    text-align: center;
+    
+}
+.content label button{
+    color: black;
+    
+    letter-spacing: 2px;
+
+}
+.content label button:hover{
+    color: chocolate;
+}
+.img{
+    
+    position: relative;
+    image-resolution: 500*300;
+    image-rendering: inherit;
+    border-image-width: inherit;
+}
+
